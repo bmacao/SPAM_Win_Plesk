@@ -1,4 +1,4 @@
-SPAM_Win_Plesk
+SpamExperts_Win_Plesk
 ==============
 
 Spamexperts Plesk Windows Integration
