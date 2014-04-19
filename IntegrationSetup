@@ -1,0 +1,36 @@
+Integration Setup
+
+Get files wget.exe , account_created.bat , spam.bat , spamremove.bat to C:\\ ( can be setup on another dir )
+
+
+- Windows Plesk:
+  Set up events at Event Manager 
+   - Customer account created
+     Event: ustomer account created
+     Priority: Hightest (100)
+     User: Plesk Administrator
+     Command: c:\\account_created.bat <new_password> <new_email>
+     
+   - Website Created
+     Event: Website Created
+     riority: Hightest (100)
+     User: Plesk Administrator
+     Command: c:\\spam.bat <new_domain_name>
+     
+   - Website Deleted
+     Event: Website Deleted
+     riority: Hightest (100)
+     User: Plesk Administrator
+     Command: c:\\spamremove.bat <old_domain_name>
+     
+
+- SpamExperts API integration
+   Files: spam.bat and spamremove.bat
+   
+   Edit user:password@url to match SpamExperts Setup
+   
+   
+- Panel ( client ) Integration
+   Custom Buttons
+   Name: SpamExperts	
+   Target Url: SpamExperts Console Login
