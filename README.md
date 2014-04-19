@@ -5,7 +5,7 @@ Spamexperts Plesk Windows Integration
 
 Add SpamExperts capabilites to WIndows Plesk 11.5 ( tested and funcional )
 
-- 2 Events
+- 3 Events
    - Add domain
    - Remove Domain
    - Account created ( require to create SpamExperts login )
